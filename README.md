@@ -6,3 +6,8 @@ This project is a machine learning-based glucose level predictor that estimates 
 3) XGBoost (Extreme Gradient Boosting): This model significantly outperformed the others, achieving 97% accuracy. XGBoost’s ability to handle nonlinear relationships and its robustness against overfitting made it a powerful choice for this task. The graph illustrating its performance is attached below for reference.
 
 <img width="1134" alt="image" src="https://github.com/user-attachments/assets/f594e954-b822-4b45-ba08-8bb0733119ab" />
+
+# Closed-Loop Glucose Simulator
+
+Lastly, the hovoka_mpc_simulation.py simulates a closed-loop glucose regulation system. This is done by physiological glucose-insulin model (Hovorka model), a LSTM-based glucose predictor, and Model Predictive Controller (MPC) for real-time insulin dose optimization. This code serves as a foundational prototype for automated insulin delivery systems such as artificial pancreas or closed-loop insulin pumps. It shows how machine learning (LSTM for prediction) and control theory (MPC for decision-making) can work together to maintain glucose homeostasis in people with diabetes.
+
